@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
+    <link rel='stylesheet' href='css/style.css' />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -76,6 +77,27 @@
             <div class="col-lg-12 text-center">
                 <h1>Welcome to my Blog!</h1>
 
+                <div class="main">
+                    <div class="container">
+                        <div class="row">
+                            <form class="form">
+                                <div class="col-xs-8 col-md-10">
+                                    <input id="comment" type="text" placeholder="share your thoughts">
+                                </div>
+                                <div class="col-xs-4 col-md-2">
+                                    <button type="submit" class="btn">post</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <ul class="comments" id="comments">
+                            <li>This is awesome!</li>
+                            <li>How's it going?</li>
+                        </ul>
+
+                    </div>
+                </div>
+
             </div>
         </div>
         <!-- /.row -->
@@ -84,7 +106,8 @@
     <!-- /.container -->
 
     <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
