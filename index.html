@@ -1,40 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Trick's Pics</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trickspics</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
 
-  <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Trickspics</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-  <div class="nav">
-    <h2>Trickspics</h2>
-      <ul>
-        <li>Photos</li>
-        <li>Videos</li>
-        <li>Contact</li>
-        <li>About Me</li>
-    </ul>
-  </div>
+    <!-- Page Content -->
+    <div class="container">
 
-  <div class="main">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Welcome to trickspics!</h1>
+                <p class="lead">Follow me as I travel the world!</p>
 
-    <h1>Welcome to trickspics!</h1>
-    <h3>Follow me as I travel the world!</h3>
+                <p>My name is Patrick Farrell.  I'm a software engineer from New York City and an amateur photographer.</p>
 
-    <p>My name is Patrick Farrell.  I'm a software engineer from New York City and an amateur photographer.</p>
+                <video width="320" height="240" controls>
+                  <source src="/Users/pfarrell/Music/iTunes/iTunes Media/Home Videos/SkyHighInParadiseFinal.mp4" type="video/mp4">
+                </video>
 
-    <video width="320" height="240" controls>
-      <source src="/Users/pfarrell/Music/iTunes/iTunes Media/Home Videos/SkyHighInParadiseFinal.mp4" type="video/mp4">
-    </video>
+                <div class="top_buffer"><a href="cities.html">Here is a list of cities where I have been.</a></div>
 
-    <div><a href="cities.html">Here is a list of cities where I have been.</a></div>
 
-  </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
